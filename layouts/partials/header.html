@@ -1,0 +1,48 @@
+<nav>
+{{- partial "social-svgs.html" . -}}
+<ul class="primary-nav">
+	<li><a href="{{- .Site.BaseURL -}}"> {{- .Site.Title -}}</a></li>
+	{{ range $.Site.Menus.main }}
+	<li>
+	<a href="{{- .URL -}}">{{ .Pre }} {{- .Name -}}</a>
+	</li>
+	{{ end }}
+</ul>
+<ul class="secondary-nav">
+	<li>
+	<a href="/index.xml">
+		<svg width="20" height="20" role="img">
+		<use xlink:href="#rss"></use>
+		</svg>
+	</a>
+	</li>
+	<li>
+	<a href="https://twitter.com/_iranvir">
+		<svg width="20" height="20" role="img">
+		<use xlink:href="#twitter"></use>
+		</svg>
+	</a>
+	</li>
+	<li>
+	<a href="https://gitlab.com/Ranvir">
+		<svg width="20" height="20" role="img">
+		<use xlink:href="#gitlab"></use>
+		</svg>
+	</a>
+	</li>
+	<li>
+	<a href="https://www.linkedin.com/in/iranvir/">
+		<svg width="20" height="20">
+		<use xlink:href="#linkedin"></use>
+		</svg>
+	</a>
+	</li>
+	<li>
+	<a href="https://youtube.com/c/iRanvir">
+		<svg width="20" height="20" role="img">
+		<use xlink:href="#youtube"></use>
+		</svg>
+	</a>
+	</li>
+</ul>
+</nav>
