@@ -1,10 +1,18 @@
+* {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
 nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: 0 0 0 0 ;
 }
 
-.primary-nav > ul {
-    width: 300px;   
-    padding: 50px;
-    margin: 20px;
+.primary-nav {
+    width: 300px;
+    margin: 0px 0px 0px 0px ;
+}
+.secondary-nav  {
+    width: 300px;
+    margin: 0px 0px 0px 0px;
 }
