@@ -2,17 +2,24 @@
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
 }
-nav {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 0 0 0 0 ;
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
 }
 
-.primary-nav {
-    width: 300px;
-    margin: 0px 0px 0px 0px ;
+#navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .responsive
+    background-image: url('../img/geometric-1732847.jpg');
+
 }
-.secondary-nav  {
-    width: 300px;
-    margin: 0px 0px 0px 0px;
+
+.primary-nav, .secondary-nav {
+    list-style-type: none;
+}
+
+pre {
+    margin: 50px;
 }

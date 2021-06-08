@@ -5,6 +5,9 @@ title: "Numbers And Reality"
 build:
   writeStats: true
 
+markup:
+  highlight:
+    style: abap
 
 params:
   description: Putting the Science back in Computer Science
