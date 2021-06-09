@@ -33,11 +33,10 @@ header > ul > li > a:hover {
 }
 
 #primary-nav {
-    grid-template-columns: 70px 70px 70px;
+    grid-template-columns: repeat(3, 70px);
 }
 
 #secondary-nav {
-    grid-template-columns: repeat(5, 1fr);
     list-style: none;
     grid-column-start: -1;
     grid-template-columns: 30px 30px 30px 30px 30px;
