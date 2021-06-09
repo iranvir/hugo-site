@@ -15,9 +15,8 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 15rem;
-    background-image: url('../img/geometric.jpg');
+    background-image: linear-gradient(rgba(87, 81, 81, 0.5), rgba(66, 60, 60, 0.5)), url('../img/geometric.jpg');
     background-position:center top;
-    background: #505357 no-repeat 50%;
 }
 
 header > ul > li > a {
@@ -40,12 +39,11 @@ header > ul > li > a {
     grid-column-start: -1;
     grid-template-columns: 30px 30px 30px 30px 30px;
 }
+svg {
+    -webkit-filter: invert(70%); /* safari 6.0 - 9.0 */
+    filter: invert(70%);
+}
 pre {
     margin: 50px;
     font-display: monospace;
-}
-
-svg {
-    -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
-            filter: invert(100%);
 }
