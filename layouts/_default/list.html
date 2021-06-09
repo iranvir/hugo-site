@@ -1,19 +1,19 @@
 {{ define "main" }}
-<div>
+<main class="list-page">
 	{{ if .IsHome}}
 		{{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
 		{{ range $index, $element := $pages }}
 		<div>
-		<div>
 			{{- partial "post-card.html" (dict "context" . "index" $index ) -}}
-		</div>
 		</div>
 		{{ end }}
 	{{ else }}
 		{{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
 		{{ range $index, $element := .Pages }}
+		<div>
 			{{- partial "post-card.html" (dict "context" . "index" $index ) -}}
+		</div>
 		{{ end }}
 	{{ end }}
-</div>
+</main>
 {{ end }}

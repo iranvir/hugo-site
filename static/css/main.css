@@ -53,3 +53,8 @@ pre {
     margin: 50px;
     font-display: monospace;
 }
+
+.list-page {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
