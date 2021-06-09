@@ -11,29 +11,36 @@ a, a:hover, a:focus, a:active {
 header {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-image: url('../img/geometric.jpg');
     height: 20rem;
+    background-image: url('../img/geometric.jpg');
+}
+
+header > ul > li > a {
+    text-decoration: underline;
 }
 
 #primary-nav, #secondary-nav {
     list-style: none;
     display: grid;
-    font-weight: 500;
+    font-size: large;
     color: white
 }
 
 #primary-nav {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 100px 100px 100px;
 }
 
 #secondary-nav {
     grid-template-columns: repeat(5, 1fr);
     list-style: none;
+    grid-column-start: -1;
+    grid-template-columns: 30px 30px 30px 30px 30px;
 }
 pre {
     margin: 50px;
 }
+
 svg {
     -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
             filter: invert(100%);
-  }
+}
