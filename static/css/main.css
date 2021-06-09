@@ -27,10 +27,8 @@ header {
 }
 
 #secondary-nav {
+    grid-template-columns: repeat(5, 1fr);
     list-style: none;
-    display: grid;
-    font-weight: 500;
-    color: white
 }
 pre {
     margin: 50px;
