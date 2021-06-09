@@ -8,18 +8,30 @@ a, a:hover, a:focus, a:active {
     color: inherit;
 }
 
-#navbar {
+header {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    .responsive
-    background-image: url('../img/geometric-1732847.jpg');
-
+    background-image: url('../img/geometric.jpg');
+    height: 20rem;
 }
 
-.primary-nav, .secondary-nav {
-    list-style-type: none;
+#primary-nav, #secondary-nav {
+    list-style: none;
+    display: grid;
+    font-weight: 500;
+    color: white
 }
 
+#primary-nav {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#secondary-nav {
+    list-style: none;
+    display: grid;
+    font-weight: 500;
+    color: white
+}
 pre {
     margin: 50px;
 }

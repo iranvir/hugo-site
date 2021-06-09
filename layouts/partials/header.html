@@ -1,14 +1,12 @@
 <header>
-<nav id="navbar">
-<ul class="primary-nav">
-	<li><a href="{{- .Site.BaseURL -}}"> {{- .Site.Title -}}</a></li>
+<ul id="primary-nav">
 	{{ range $.Site.Menus.main }}
 	<li>
 	<a href="{{- .URL -}}">{{ .Pre }} {{- .Name -}}</a>
 	</li>
 	{{ end }}
 </ul>
-<ul class="secondary-nav">
+<ul id="secondary-nav">
 	<li>
 	<a href="/index.xml">
 		<svg width="20" height="20" role="img">
@@ -45,5 +43,4 @@
 	</a>
 	</li>
 </ul>
-</nav>
 </header>
