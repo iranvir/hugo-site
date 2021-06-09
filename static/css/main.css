@@ -16,17 +16,20 @@ header {
     grid-template-columns: 1fr 1fr;
     height: 15rem;
     background-image: linear-gradient(rgba(87, 81, 81, 0.5), rgba(66, 60, 60, 0.5)), url('../img/geometric.jpg');
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr;
     background-position:center top;
+    grid-template-areas: "#primary-nav . #secondary-nav" ". . #branding";
 }
 
-header > ul > li > a {
+header > ul > li > a:hover {
     text-decoration: underline;
 }
 
 #primary-nav, #secondary-nav {
     list-style: none;
     display: grid;
-    color: white;
+    color: lightgrey;
 }
 
 #primary-nav {
@@ -39,9 +42,12 @@ header > ul > li > a {
     grid-column-start: -1;
     grid-template-columns: 30px 30px 30px 30px 30px;
 }
+
+
+
 svg {
-    -webkit-filter: invert(70%); /* safari 6.0 - 9.0 */
-    filter: invert(70%);
+    -webkit-filter: invert(75%); /* safari 6.0 - 9.0 */
+    filter: invert(75%);
 }
 pre {
     margin: 50px;
