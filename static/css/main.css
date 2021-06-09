@@ -1,6 +1,9 @@
 * {
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+    "Helvetica Neue", sans-serif;
 }
 
 a, a:hover, a:focus, a:active {
@@ -11,8 +14,10 @@ a, a:hover, a:focus, a:active {
 header {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 20rem;
+    height: 15rem;
     background-image: url('../img/geometric.jpg');
+    background-position:center top;
+    background: #505357 no-repeat 50%;
 }
 
 header > ul > li > a {
@@ -22,12 +27,11 @@ header > ul > li > a {
 #primary-nav, #secondary-nav {
     list-style: none;
     display: grid;
-    font-size: large;
-    color: white
+    color: white;
 }
 
 #primary-nav {
-    grid-template-columns: 100px 100px 100px;
+    grid-template-columns: 70px 70px 70px;
 }
 
 #secondary-nav {
@@ -38,6 +42,7 @@ header > ul > li > a {
 }
 pre {
     margin: 50px;
+    font-display: monospace;
 }
 
 svg {
