@@ -1,7 +1,7 @@
 <svg width="20" height="20" role="img">
 <use xlink:href="#clock"></use>
 </svg>
-<time datetime="{{- .context.Date.Format "2006-31-01" -}}">{{- .context.Date.Format "2 January 2006" -}}</time> &bull;  {{- .context.ReadingTime -}} min read
+<time>{{- .context.Date.Format "2 January 2006" -}}</time> &bull;  {{ .context.ReadingTime -}} min read
 <a href="{{- .context.Permalink -}}">
 	<h2>{{- .context.Title -}}</h2>
 	<p>{{- .context.Summary -}}</p>

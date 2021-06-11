@@ -55,14 +55,45 @@ pre {
     font-display: monospace;
 }
 
+.list-page > div {
+    background: #eee;
+    padding: 1em;
+}
+.list-page > div:nth-child(odd) {
+    background: #ddd;
+}
 .list-page {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-top: 50px;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
-.list-page > div {
-    width: clamp(400px, 33%, 600px);
+footer {
+    position: fixed;
+    bottom: 0;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "site-copyright credits";
 }
+
+footer > a {
+    grid-area: site-copyright;
+}
+
+footer > p {
+    grid-area: credits;
+}
+
+@media only screen and (max-width: 900px) {
+    .list-page {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    #branding > h1 {
+        font-size: 25px;
+    }
+    .list-page {
+        margin: auto;
+    }
+  }
