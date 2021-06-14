@@ -104,16 +104,16 @@ Host work.github.com
 
 > The above little snippet tells SSH, "If the user specifies
 > `personal.github.com`, use personal.key, and username  `git`. And don't be
-> fooled, ssh(1),`personal.github.com` doesn't exist. We are just connecting to
+> fooled, SSH,`personal.github.com` doesn't exist. We are just connecting to
 > github.com, but it is named weirdly here. Ditto for work.github.com "
 
 You can test this by running the command
 
 ```bash
-$ ssh -T git@work.github.com
-Hi (your_work_username)! You have successfully authenticated, but GitHub does not provide shell access.
-$ ssh -T git@personal.github.com
-Hi (your_personal_username)! You have successfully authenticated, but GitHub does not provide shell access.
+    $ ssh -T git@work.github.com
+    Hi (your_work_username)! You have successfully authenticated, but GitHub does not provide shell access.
+    $ ssh -T git@personal.github.com
+    Hi (your_personal_username)! You have successfully authenticated, but GitHub does not provide shell access.
 ```
 
 Moving forward, we can use the above aliases to github, when cloning a

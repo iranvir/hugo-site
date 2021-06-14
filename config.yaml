@@ -7,7 +7,7 @@ build:
 
 markup:
   highlight:
-    style: abap
+    style: dracula
 
 params:
   description: Putting the Science back in Computer Science
