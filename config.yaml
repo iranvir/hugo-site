@@ -7,7 +7,7 @@ build:
 
 markup:
   highlight:
-    style: dracula
+    style: solarized-light
 
 params:
   description: Putting the Science back in Computer Science

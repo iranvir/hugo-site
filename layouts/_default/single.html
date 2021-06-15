@@ -1,5 +1,6 @@
 {{ define "main" }}
-<div class="blog-post">
+<div class="wrapper">
+<main class="blog-post">
 	<h1>{{ .Title }}</h1>
 	<aside>
 	<h4><strong> Index </strong></h4>
@@ -8,5 +9,6 @@
 	<article>
 	{{ .Content }}
 	</article>
+</main>
 </div>
 {{ end }}

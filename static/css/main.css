@@ -39,7 +39,7 @@ ul#primary-nav li, ul#secondary-nav li{
     grid-area: branding;
     display: grid;
     justify-content: center;
-    color: lightgrey;
+    color: darkgrey;
 }
 
 ul#primary-nav a:hover {
@@ -50,10 +50,18 @@ svg {
     -webkit-filter: invert(75%); /* safari 6.0 - 9.0 */
     filter: invert(75%);
 }
+
 pre, code {
     font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
 }
 
+pre {
+    padding: 1em;
+    border: black;
+}
+.wrapper {
+    background-color: lightgrey;
+}
 .list-page > div {
     background: #eee;
     padding: 1em;

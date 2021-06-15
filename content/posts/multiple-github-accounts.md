@@ -110,10 +110,10 @@ Host work.github.com
 You can test this by running the command
 
 ```bash
-    $ ssh -T git@work.github.com
-    Hi (your_work_username)! You have successfully authenticated, but GitHub does not provide shell access.
-    $ ssh -T git@personal.github.com
-    Hi (your_personal_username)! You have successfully authenticated, but GitHub does not provide shell access.
+$ ssh -T git@work.github.com
+Hi (your_work_username)! You have successfully authenticated, but GitHub does not provide shell access.
+$ ssh -T git@personal.github.com
+Hi (your_personal_username)! You have successfully authenticated, but GitHub does not provide shell access.
 ```
 
 Moving forward, we can use the above aliases to github, when cloning a
