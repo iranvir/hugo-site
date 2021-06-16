@@ -1,6 +1,6 @@
-baseURL: "https://nandr-yj2st.ondigitalocean.app/"
+baseURL: "https://www.ranvir.tech/"
 languageCode: "en-us"
-title: "Numbers And Reality"
+title: "Ranvir Singh"
 
 build:
   writeStats: true

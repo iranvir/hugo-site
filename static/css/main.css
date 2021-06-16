@@ -66,9 +66,7 @@ pre {
     background: #eee;
     padding: 1em;
 }
-.list-page > div:nth-child(odd) {
-    background: #ddd;
-}
+
 .list-page {
     display: grid;
     grid-template-columns: 1fr;
