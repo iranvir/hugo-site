@@ -103,9 +103,6 @@ footer > p {
       display: grid;
       grid-template-columns: 1fr;
     }
-    #branding > h1 {
-        font-size: 25px;
-    }
     .list-page {
         margin: auto;
     }
