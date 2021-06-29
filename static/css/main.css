@@ -2,6 +2,7 @@
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
 	font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
 }
 
 a,
@@ -66,6 +67,7 @@ pre {
 }
 .wrapper {
   background-color: lightgrey;
+  height: 100vh;
 }
 .list-page > div {
   background: #eee;
