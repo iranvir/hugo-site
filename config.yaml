@@ -18,15 +18,15 @@ params:
 menu:
   main:
     - identifier: about
-      name: About
+      name: ABOUT
       url: /about
       weight: 10
     - identifier: posts
-      name: Posts
+      name: POSTS
       url: /posts
       weight: 20
     - identifier: notes
-      name: Notes
+      name: NOTES
       url: /notes
       weight: 20
 
