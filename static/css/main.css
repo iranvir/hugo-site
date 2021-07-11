@@ -27,8 +27,8 @@ header {
 	grid-template-areas: "primary-nav . secondary-nav" ". branding .";
 }
 
-ul#primary-nav li,
-ul#secondary-nav li {
+#primary-nav li,
+#secondary-nav li {
 	list-style: none;
 	color: lightgrey;
 	display: inline;
@@ -52,11 +52,10 @@ ul#secondary-nav li {
 	color: darkgrey;
 }
 
-ul#primary-nav a:hover {
+#primary-nav a:hover {
 	text-decoration: underline;
 }
 svg {
-	-webkit-filter: invert(75%); /* safari 6.0 - 9.0 */
 	filter: invert(75%);
 }
 pre, code {
