@@ -78,12 +78,12 @@ pre {
 	gap: 2rem;
 }
 .blog-post {
-    overflow-wrap: break-word;
+	overflow-wrap: break-word;
 	display: grid;
 	margin-left: 20%;
 	margin-right: 20%;
-    background: #eee;
-    padding: 1em;
+	background: #eee;
+	padding: 1em;
 }
 footer {
 	position: fixed;
