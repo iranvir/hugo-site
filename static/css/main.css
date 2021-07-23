@@ -17,6 +17,8 @@ a:active {
 header {
 	display: grid;
 	height: 18rem;
+    position: relative;
+    padding-bottom: 12px; 
 	background-image: linear-gradient(
 		rgba(87, 81, 81, 0.5),
 		rgba(66, 60, 60, 0.5)
@@ -70,17 +72,18 @@ pre {
 .list-page > div {
   background: #eee;
   padding: 1em;
+  border-bottom: solid 1px black;
+  border-right: solid 1px black;
 }
 .list-page {
 	display: grid;
-	grid-template-columns: 1fr;
+	grid-template-columns: 1fr 1fr;
 	margin-left: 20%;
 	margin-right: 20%;
-	gap: 2rem;
 }
 .blog-post {
 	display: grid;
-	margin-left: 20%;
+    margin-left: 20%;
 	margin-right: 20%;
 	background: #eee;
 	padding: 1em;

@@ -7,7 +7,7 @@ build:
 
 markup:
   highlight:
-    style: solarized-light
+    style: monokai
 
 params:
   description: Putting the Science back in Computer Science
