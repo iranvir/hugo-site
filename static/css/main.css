@@ -64,6 +64,7 @@ pre, code {
 pre {
   padding: 1em;
   border: black;
+  white-space: pre-wrap;
 }
 
 .list-page > div {
@@ -78,7 +79,6 @@ pre {
 	gap: 2rem;
 }
 .blog-post {
-	overflow-wrap: break-word;
 	display: grid;
 	margin-left: 20%;
 	margin-right: 20%;
